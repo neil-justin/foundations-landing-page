@@ -26,7 +26,7 @@ body {
     font-size: 18px;
 }
 
-.link-item {
+.link {
     text-decoration: none;
 }
 
@@ -71,22 +71,22 @@ header,
     padding-bottom: 50px;
 }
 
-.hero-body-container {
+.hero__body {
     width: 450px;
     flex: 1 1 auto;
 }
 
-.hero-img-container {
+.hero__img-container {
     flex: 1 2 auto;
     display: flex;
     justify-content: flex-end;
 }
 
-.hero-heading {
+.hero__heading {
     font-size: 42px;
 }
 
-.hero-img {
+.hero__img {
     width: 450px;
     height: auto;
     border: 5px solid #3882f6;
