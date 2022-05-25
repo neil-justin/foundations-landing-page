@@ -87,7 +87,7 @@ header {
     padding: 50px 135px 75px;
 }
 
-.hero__body {
+.hero__text-container {
     width: 450px;
     flex: 1 1 auto;
 }
