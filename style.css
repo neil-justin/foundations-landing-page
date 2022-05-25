@@ -16,7 +16,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Reusable classes starts here and ends before the header, .hero classes */
+/* Reusable classes starts here and ends before the "header, .hero class" */
 /* The heading of information section is not included in this class */
 .text--title {
     color: #f9faf8;
@@ -51,7 +51,7 @@ button {
     font-weight: bold;
 }
 
-/* This refers to the navigation button -- that can be found at the right-side of the header (About and Github)*/
+/* This refers to the navigation buttons*/
 .list-item {
     list-style-type: none
 }
@@ -69,12 +69,12 @@ header {
     padding: 10px 135px;
 }
 
-
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
+/* This class wrapped the navigation button (About and Github) */
 .nav-container {
     display: flex;
     gap: 30px;
