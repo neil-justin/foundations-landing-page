@@ -122,11 +122,18 @@ header nav a:active {
 .hero__text-container {
     width: 450px;
     flex: 1 1 auto;
+    /* This was set in order to make the position: absolute property (under the ".contents__button" class) work  */
+    position: relative;
 }
 
 .hero__heading {
     font-size: 42px;
     margin-bottom: 10px;
+}
+
+.contents__button {
+    /* This prevent the surrounding elements (in this case, the paragraph and image) to move over when you hover the mouse to the button. */
+    position: absolute;
 }
 
 .hero__img-container {
@@ -138,6 +145,7 @@ header nav a:active {
 .hero__img {
     width: 450px;
     height: auto;
+    margin: 20px 0 0;
 }
 
 .information {
