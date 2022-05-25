@@ -234,6 +234,10 @@ header nav a:active {
     margin-bottom: 10px;
 }
 
+.sign-up__button-container {
+    display: flex;
+}
+
 .sign-up-block button {
     border: 3px solid white;
 }
