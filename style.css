@@ -40,7 +40,7 @@ body {
 }
 
 button {
-    border: none;
+    outline: none;
     background: #3882f6;
     border-radius: 8px;
     padding: 8px 20px;
@@ -78,6 +78,29 @@ header {
 .nav-container {
     display: flex;
     gap: 30px;
+}
+
+header nav a {
+    outline: none;
+    padding: 2px 1px 0;
+    text-decoration: none;
+}
+
+header nav a:link,
+header nav a:visited {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header nav a:focus {
+    outline: 2px solid #3882f6;
+    color: #f9faf8;
+}
+
+header nav a:hover,
+header nav a:active {
+    color: #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
 }
 
 .hero {
@@ -205,4 +228,28 @@ footer {
 
 footer .list-item {
     margin: 5px;
+}
+
+footer a {
+    outline: none;
+    padding: 2px 1px 0;
+    text-decoration: none;
+}
+
+footer a:link,
+footer a:visited {
+    color: #e5e7eb;
+    font-size: 18px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+footer a:focus {
+    outline: 2px solid #3882f6;
+    color: #e5e7eb;
+}
+
+footer a:hover,
+footer a:active {
+    color: #e5e7eb;
+    border-bottom: none;
 }
