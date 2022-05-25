@@ -34,7 +34,7 @@ body {
     border-radius: 20px;
 }
 
-/* This class are applied to anything that has <a> tag */
+/* This class are applied to anything that has <a> tag except for the footer's link */
 .link {
     text-decoration: none;
 }
@@ -53,18 +53,19 @@ button {
 
 /* This refers to the navigation button -- that can be found at the right-side of the header (About and Github)*/
 .list-item {
-    list-style-type: none;
+    list-style-type: none
 }
 
 header,
-.hero {
+.hero,
+footer {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 header {
+    justify-content: space-between;
     padding: 10px 135px;
 }
 
@@ -80,6 +81,7 @@ header {
 }
 
 .hero {
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 40px;
     padding: 50px 135px 75px;
@@ -194,4 +196,13 @@ header {
 
 .sign-up-block button {
     border: 3px solid white;
+}
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .list-item {
+    margin: 5px;
 }
