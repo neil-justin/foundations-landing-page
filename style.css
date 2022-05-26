@@ -213,6 +213,7 @@ header nav a:active {
 
 .sign-up-container {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     row-gap: 20px;
@@ -234,11 +235,7 @@ header nav a:active {
     margin-bottom: 10px;
 }
 
-.sign-up__button-container {
-    display: flex;
-}
-
-.sign-up-block button {
+.sign-up__button {
     border: 3px solid white;
 }
 
