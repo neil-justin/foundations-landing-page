@@ -186,8 +186,7 @@ header nav a:active {
     text-align: center;
 }
 
-.quote,
-.sign-up-block {
+.quote {
     padding: 75px 170px;
     background-color: #e5e7eb;
 }
@@ -208,6 +207,7 @@ header nav a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 75px 325px;
     background-color: white;
 }
 
@@ -225,7 +225,7 @@ header nav a:active {
 }
 
 .sign-up__text-container {
-    width: 750px;
+    width: 540px;
 }
 
 .sign-up__heading {
