@@ -131,9 +131,10 @@ header nav a:active {
     margin-bottom: 10px;
 }
 
-.contents__button {
+.hero__button {
     /* This prevent the surrounding elements (in this case, the paragraph and image) to move over when you hover the mouse to the button. */
     position: absolute;
+    border: none;
 }
 
 .hero__img-container {
