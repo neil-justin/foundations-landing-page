@@ -16,14 +16,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Reusable classes starts here and ends before the "header, .hero class" */
 /* The heading of information section is not included in this class */
 .text--title {
     color: #f9faf8;
     font-weight: bolder;
 }
 
-/* Wonder why it is name like this, why not "text--body"? It's because nav and the text in the footer is also included in this class -- they are not body text, right? */
 .text--non-title {
     color: #e5e7eb;
     font-size: 18px;
@@ -55,8 +53,7 @@ button:focus {
     font-weight: bold;
 }
 
-/* This refers to the navigation buttons*/
-.list-item {
+.list {
     list-style-type: none
 }
 
@@ -78,7 +75,6 @@ header {
     font-weight: bold;
 }
 
-/* This class wrapped the navigation button (About and Github) */
 .nav-container {
     display: flex;
     gap: 30px;
@@ -117,8 +113,6 @@ header nav a:active {
 .hero__text-container {
     width: 450px;
     flex: 1 1 auto;
-    /* This was set in order to make the position: absolute property (under the ".contents__button" class) work  */
-    position: relative;
 }
 
 .hero__heading {
@@ -127,8 +121,6 @@ header nav a:active {
 }
 
 .hero__button {
-    /* This prevent the surrounding elements (in this case, the paragraph and image) to move over when you hover the mouse to the button. */
-    position: absolute;
     border: none;
 }
 
@@ -208,7 +200,7 @@ header nav a:active {
 
 .sign-up-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     row-gap: 20px;
