@@ -194,7 +194,7 @@ header nav a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 75px 325px;
+    padding: 75px 285px;
     background-color: white;
 }
 
@@ -203,7 +203,7 @@ header nav a:active {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    row-gap: 20px;
+    column-gap: 50px;
     width: 100%;
     height: 100%;
     padding: 35px 85px;
@@ -212,7 +212,7 @@ header nav a:active {
 }
 
 .sign-up__text-container {
-    width: 540px;
+    width: 450px;
 }
 
 .sign-up__heading {
@@ -223,7 +223,7 @@ header nav a:active {
 }
 
 .sign-up__button {
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 footer {
