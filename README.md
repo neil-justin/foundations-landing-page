@@ -1,6 +1,6 @@
-# foundations-landing-page
+# landing-page
 
-This repo is my version of "Foundations Landing Page" project from theodinproject.com
+A simple landing page built using HTML and CSS
 
 Below are the list of images featured in my webpage:
 - Photo by Pixabay from Pexels: https://www.pexels.com/photo/architecture-clouds-daylight-driveway-259588/
