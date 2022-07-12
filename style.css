@@ -100,7 +100,7 @@ header nav a:focus {
 header nav a:hover,
 header nav a:active {
     color: #e5e7eb;
-    text-decoration: 2px underline #e5e7eb;
+    text-decoration: 1.5px underline #e5e7eb;
 }
 
 .hero {
@@ -245,7 +245,7 @@ footer a:link,
 footer a:visited {
     color: #e5e7eb;
     font-size: 18px;
-    text-decoration: 2px underline #e5e7eb;
+    text-decoration: 1.5px underline #e5e7eb;
 }
 
 footer a:focus {
