@@ -2,6 +2,8 @@
 A simple landing page built using HTML and CSS
 ## Preview
 [Live preview](https://neil-justin.github.io/landing-page/)
+
+
 ![This is the webpage preview](img/webpage-preview.png)
 ## Credits
 Below are the list of images featured in my webpage:
